@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import string
-from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
 import pickle
 import spacy
