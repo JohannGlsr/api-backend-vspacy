@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import string
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import pickle
 import spacy
 
